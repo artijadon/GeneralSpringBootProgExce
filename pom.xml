@@ -62,13 +62,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M5</version>
-				<configuration>
-				  <dependenciesToScan>
-				    <dependency>org.acme:project-a</dependency>
-				    <dependency>org.acme:project-b:test-jar</dependency>
-				    <dependency>org.acme:project-c:*:tests-jdk15</dependency>
-				  </dependenciesToScan>
-				</configuration>
+				
 			      </plugin>
 		</plugins>
 	</build>
